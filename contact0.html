@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div class="contact">
+        <table width="100%">
+          
+            <tr>
+                <td><label for="name">Nom</label></td>
+                <td><input type="text" size="30" name="second_name" required></td>
+            </tr>
+            <tr>
+                <td><label for="Fname">Prénom</label></td>
+                <td><input type="text" size="30" name="first_name" required></td>
+            </tr>
+            <tr>
+                <td><label for="sexe">Sexe</label></td>
+                <td>
+                    <input type="radio" name="sexe" id="male" required>
+                    <label for="male">Masculine</label>
+                    <input type="radio" name="sexe" id="female" required>
+                    <label for="female">Féminin</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="date">Date De Nissance</label></td>
+                <td><input type="date" name="date" required></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td><textarea name="address" rows="2" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="school">Niveau d'étude</label></td>
+                <td>
+                    <select name="level" id="school" required>
+                        <option value="Ouarzazate">Ouarzazate</option>
+                        <option value="Zagoura">Zagoura</option>
+                        <option value="Tinghir">Tinghir</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
